@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    .container{
+      width: 300px;
+      height: 540px;
+      border: 20px;
+      
+      background-color:#15273F;
+      border-color: black;
+      border-radius: 20px;
+      position: relative;
+      left: 40%;
+      top: 126px;
+          
+
+    }
+    .box img{
+      position: relative;
+      width: 250px;
+      
+      border-radius: 10px;
+      left: 25px;
+      top: 30px;
+      
+
+    }
+    .box h2{
+      
+      color: white;
+      margin-top: 36px;
+      margin-left: 20px;
+      
+    }
+    .box p{
+      color: #7184A2;
+      margin-left: 20px;
+
+    }
+    .size{
+      position: absolute;
+      left: 80px;
+    }
+    .image img{
+      position: relative;
+      width: 12px;
+      top: 11px;
+    }
+    .image p{
+      position: absolute;
+      color:#5CD8E4;
+      left:22px ;
+      margin-top: -11px;
+    }
+  .clock img{
+    position: relative;
+      width: 19px;
+      margin-left: 50%;
+      top: -11px;
+      
+  }
+  .clock p{
+    margin-left: 68%;
+    margin-top: -31px;
+
+  }
+  hr{
+        border-top: 1px #8c8b8b;
+        width: 266px;
+    }
+    .user p{
+      margin-left: 77px;
+      margin-top: 2px;
+      color: #96A7C1;
+      
+    }
+    .user img{
+      width: 35px;
+    }
+    span{
+      color: white;
+    }
+  
+  </style>
+</head>
+<body>
+
+  Equilibrium #3429
+
+  Our Equilibrium collection promotes balance and calm.
+
+  0.041 ETH
+  3 days left
+  
+  Creation of Jules Wyvern
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Srisivas A</a>.
+  </div>
+
+  <div class="container">
+    
+    <div class="box">
+      <img src="images/image-equilibrium.jpg" alt="">
+      <h2>Equilibrium #3429</h2>
+
+  <p>Our Equilibrium collection promotes balance and calm.</p>
+   <div class="image"> 
+   <img  src="images/icon-ethereum.svg" alt="">
+   
+   <p>0.041 ETH</p>
+   </div>
+   <div class="clock">
+     <img src="images/icon-clock.svg" alt="">
+     <p>3 days left</p>
+
+   </div>
+     <hr>
+<div class="user">
+  <img src="images/image-avatar.png" alt="">
+  <p>Creation of  <span>Jules Wyvern</span>
+  </p>
+</div>
+
+    </div>
+    
+    
+
+  </div>
+</body>
+</html>
